@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
 }
 ul{
     list-style: none;
@@ -56,6 +60,37 @@ nav a {
     max-width: 400px;
     padding: 5px ;
 }
+.tour{
+    padding: 40px 0;
+    text-align: center;
+}
+.tour .heading{
+    margin: 10px 0;
+    
+}
+.tbox{
+    width: 47%;
+    margin: 20px 0;
+}
+.tbox-img{
+    position: relative;
+}
+.tour img {
+    width: 100%;
+}
+.price{
+    position: absolute;
+    left: -10px;
+    top: 70%;
+    background: green;
+    color: #fff;
+    padding: 10px;
+}
+.wrap
+{
+    flex-wrap: wrap;
+}
+
 @media(min-width:780px){
     nav ul{
         display: flex;
@@ -63,5 +98,8 @@ nav a {
     }
     .toggle{
         display: none;
+    }
+    .tbox{
+        width: 30%;
     }
 }
