@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+body
+{
+    font-family: "Montserrat", sans-serif;
+}
+.top
+{
+    background: #FD4C29;
+    color: aliceblue;
+    line-height: 40px;
+}
+.con
+{
+    width: 1200px;
+    margin: auto;
+}
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+.clear
+{
+    clear: both;
+}
+nav ul
+{
+padding-top:20 ;
+}
+nav li
+{
+    display: inline-block;
+}
+nav a
+{
+    display: block;
+    color: black;
+    padding: 25px;
+}
+nav a:hover , .active a
+{
+ background: #FD4C29 ;
+ color: white;
+}
+.w-100
+{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.intro-left
+{
+    width: 48%;
+    float: left;
+}
+.intro-right
+{
+    width: 48%;
+    float: right;
+}
+.intro h3
+{
+    padding: 20px 0;
+}
+.intro p{
+    line-height: 1.7;
+    text-align: justify;
+    padding: 20px 0;
+}
+
+.quote
+{
+    background: linear-gradient( #fd4c29d1 , #ff5b3ad6, #fd4c29e5 ), url(../img/img2.jpeg);
+    padding: 50px 0;
+    object-fit: cover;
+ 
+}
+.msg-left
+{
+    width: 48%;
+   float: left;
+}
+.msg-right
+{
+    width: 48%;
+   float: right;
+   
+}
+.msgfrm h3
+{
+    padding: 40px 0;
+}
+.msgfrm img
+{   
+   
+    
+    padding: 40px 0 10px 0;
+    margin: auto;
+}
+.msg-right p
+{
+    line-height: 1.7;
+    margin: auto;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+.events
+{
+   text-align: center; 
+}
+.events h2
+{
+    padding: 40px 0;
+
+}
+.events img
+{
+    max-width: 100%;
+}
+.event-content
+{
+   padding: 20px;
+   box-shadow: 0px 0px 3px 3px grey;
+}
+.footer
+{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 40px 0 ;
+}
+.footer span
+{
+    color: #FD4C29;
+}
+.footer h2
+{
+    font-size: 44px ;
+    padding-bottom: 20px; 
+}
+.footer p
+{
+    font-size: 50px;
+}
+.footer a
+{
+    color: white;
+}

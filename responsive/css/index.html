@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+      header{
+        background: grey;
+      
+      }
+       .p{ padding: 40px;}
+       .blue { background: blue; padding: 60px; width: 100%;}
+       .flex{ margin: 30px; display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;}
+
+       @media(max-width:480px)
+       {
+        .blue{
+             width: 48%;
+        }
+       
+       }
+       @media(min-width:480px) and (max-width:720px)
+       {
+        .blue{
+             width: 40%;
+        }
+       
+       }
+       @media (min-width:720px) and (max-width: 2138px)
+       {
+        .blue{
+            width: 25%;
+        }
+       }
+
+    </style>
+</head>
+<body>
+    <header class="p"></header>
+    <div class="flex">
+       <div class="blue"></div>
+
+       <div class="blue"></div>
+
+       <div class="blue"></div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptates in laudantium quae officiis eos natus laboriosam excepturi doloribus. Incidunt aut optio molestias fugiat vel porro quasi! Soluta eaque magnam consequuntur assumenda nesciunt fuga ab expedita odio rerum omnis alias earum laboriosam quis possimus ad dicta repellat, rem corporis repellendus commodi magni placeat ipsa voluptatibus odit! Facere illo fugiat dolores suscipit ex corrupti hic, sapiente ipsum optio quo, esse, laborum odio maiores ratione rem iure. At fugit officiis alias voluptate quam corrupti fuga est recusandae nam eos illum quod laudantium, cumque incidunt fugiat ratione iusto eaque tempora neque minus quidem?</p>
+</body>
+</html>

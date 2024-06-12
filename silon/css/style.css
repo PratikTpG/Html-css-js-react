@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+ul
+{
+    list-style: none;
+}
+.con
+{
+    max-width: 1100px;
+    margin: auto;
+}
+body
+{
+    font-family: "roboto", sans-serif;
+}
+.top
+{
+    background: #FEF7F6;
+    padding: 10px 0;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top ul
+{
+    display: flex;
+    gap: 20px;
+}
+header
+{
+    padding: 20px 0;
+}
+header ul
+{
+    display: flex;
+    gap: 20px;
+}
+.bg-1
+{
+  background: url(https://sangalotech.com/html/03/images/bg-1.jpg););
+}
+
+.title
+{
+    
+    font-size: 20px;
+    text-align: center;
+    padding: 150px 50px;
+    line-height: 25px;
+}
+
+.banner-content
+{
+    max-width: 40px 0;
+   
+}
+.banner-content h1
+{
+   
+}
+span.tagline
+{
+    padding-bottom: 20px;
+}
+a.btn-red
+{
+    font-size: 14px;
+    padding-top: 40px;
+    border-radius: 10px;
+    background-color: #FF5757;
+    padding: 15px 40px;
+}
+span.tagline
+{
+    color: #565656;
+    font-size: 14px;
+}
+h1
+{
+    padding-bottom: 20px;
+}

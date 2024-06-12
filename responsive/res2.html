@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        .page> div 
+        { padding: 40px; border: 2px solid black; width: 100%; }
+        .page{display: flex; flex-wrap: wrap;}
+
+
+        @media(min-width: 480px)
+        {
+            .page > div:nth-child(2){ width:100%;}
+            .page > div:nth-child(3), .page > div:nth-child(4) {width: 40%;}
+        }
+        @media(min-width: 480px)  and (max-width: 780px)
+        {
+            .page > div:nth-child(1){ order: 1;}
+            .page > div:nth-child(2){ order: 2; width: 50%}
+            .page > div:nth-child(3){ order: 3; width: 25%}
+            .page > div:nth-child(4){ order: 4; width: 15%;}
+            .page > div:nth-child(5){ order: 5;}
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+          <div class="div">head</div>
+          <div class="div">main</div>
+          <div class="div">left</div>
+          <div class="div">right</div>
+          <div class="div">footer</div>
+       
+    </div>
+</body>
+</html>

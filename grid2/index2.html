@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{ border: 1px solid black; padding: 40px;}
+        .a{ grid-area: a;}
+        .b{ grid-area: b;}
+        .c{ grid-area: c;}
+        .d{ grid-area: d;}
+        .grid{
+            display: grid; gap: 5px;
+            grid-template-areas: 'a b b' ' a c d' 'a e d' 'a f d';
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="box a">kot</div>
+        <div class="box b">bal</div>
+        <div class="box c">kal</div>
+        <div class="box d">god</div>
+        <div class="box e">nar</div>
+        <div class="box f">chy</div>
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.con{
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.top {
+    background-color: #343A40;
+    padding: 20px 0;
+    
+}
+.top a{
+    color: #fff;
+}
+.top ul{
+    display: flex;
+    gap: 20px;
+}
+header{
+    padding: 20px 0;
+    align-items: center;
+}
+.logo img
+{
+    width: 140px;
+}
+nav ul{
+    display: none;
+}
+nav a {
+    color: #000;
+    padding: 20px;
+}
+.banner{
+    height: 70vh;
+    background: linear-gradient(rgba(17, 16, 16, 0.8),rgba(32, 35, 32, 0.387)), url(https://i.natgeofe.com/k/578a6a47-3514-4d36-bf4b-254fa7c49c45/nepal-prayer-flags_16x9.jpg?w=1200);
+    background-size: cover;
+    color: #fff;
+}
+.banner-content{
+    max-width: 400px;
+    padding: 5px ;
+}
+@media(min-width:780px){
+    nav ul{
+        display: flex;
+
+    }
+    .toggle{
+        display: none;
+    }
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+body
+{
+   font-family: "Monsterrat", sans-serif;
+}
+.top
+{
+    background-color: red;
+    color: aliceblue;
+    line-height: 40px;
+}
+.con
+{
+    width: 1200px;
+    margin: auto;
+}
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+.clear
+{
+    clear: both;
+}
+
+nav ul
+{
+    padding-top: 20px;
+}
+nav li
+{
+    display: inline-block;
+}
+nav a
+{
+    display: block;
+    color: black;
+    padding: 25px;
+}
+nav a:hover , .active a
+{
+ background: #FD4C29 ;
+ color: white;
+}

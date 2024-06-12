@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+             background-color: rgb(251, 0, 0);
+            color: aqua;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 2px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: opacity 0.15s;
+            vertical-align: top;
+        }
+        .b{
+            background-color: white;
+            border-color: burlywood;
+            border-style: solid;
+            border-width: 2px;
+            color: burlywood;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 2px;
+            cursor:pointer;
+            transition: background-color 1s,
+            color 0.15 ;
+            vertical-align: top;
+
+        }
+        .c{
+            background-color: black;
+            color: white;
+            border: none;
+            height:36px;
+            width: 70px;
+            font-weight: bold;
+            font-size: 15;
+            border-radius: 50px;
+            cursor:pointer;
+            margin-left: 8px;
+            transition: box-shadow 0.15s;
+            vertical-align: top;
+        }
+        .a:hover{
+          opacity: 0.7;
+        }
+        .a:active{
+          opacity: 0.5;
+        }
+        .b:hover{
+            background-color: burlywood;
+            color:white;
+        }
+        .b:active{
+            opacity:0.5;
+        } 
+        .c:hover{
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+
+        }
+        .c:active{
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <button class="a">hey</button>
+    <button class="b">hello</button>
+    <button class="c">bye bye</button> 
+</body>
+</html>

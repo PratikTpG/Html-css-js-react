@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid
+        {
+            background: pink; display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            gap: 20px;
+        }
+        .box
+        {
+            border: 2px solid #000;
+            padding: 20px;
+        }
+        .a{ grid-column: 1/4;}
+        .b{grid-row: 2/4;}
+        .d{grid-row:2/4; grid-column: 3;}
+        .grid2{
+            padding: 20px 0;
+            background: skyblue; display: grid;
+            grid-template-columns: auto auto auto auto ;
+            gap: 20px;
+        }
+        .f{ grid-row: 1/6;
+            text-align: center;
+             }
+        .g{ grid-column: 2/5;
+            text-align: center;}
+        .h{ grid-column: 2/4;
+            text-align: center;}
+        .i{ grid-row: 2/6; grid-column: 4/4;
+            text-align: center;}
+        .l{ grid-column: 2/4;
+            text-align: center;}
+        .m{ grid-column: 2/4;
+            text-align: center;d}
+
+    </style>
+</head>
+<body>,
+    <div class="grid">
+        <div class="box a">A</div>
+        <div class="box b">B</div>
+        <div class="box c">C</div>
+        <div class="box d">D</div>
+        <div class="box e">E</div>
+        <div class="box a">F</div>
+    </div>
+    <div class="grid2">
+        <div class="box f">a</div>
+        <div class="box g">b</div>
+        <div class="box h">c</div>
+        <div class="box i">d</div>
+        <div class="box j">e</div>
+        <div class="box k">f</div>
+        <div class="box l">g</div>
+        <div class="box m">h</div>
+
+    </div>
+</body>
+</html>

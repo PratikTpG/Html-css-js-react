@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box p{ color: yellow; }  /* decendeant*/
+         .box > p { background: red ;}/* child*/
+         .box + p{ font-size: 45px; }/* adjacent sibling selector*/
+         .box ~ p { text-transform:uppercase} /* generelsibling selector*/
+         h1::before {content: 'nice'; background: red; color: yellow; margin-right: 20px;}
+         h1::after { content: 'back'; background: green; color:black; margin-left: 20px;}
+         p::first-letter{ font-size: 66px;}
+         p::first-line{ background: pink;}
+         ::selection{background: brown; color: aqua;}
+          ::marker{color: red;}
+          ::placeholder{color: aquamarine ;}
+          ul{ list-style: none;}
+          li::before{content: '✓';}
+          </style>
+</head>
+<body>
+
+     pseudo element
+     <ul>
+        <li>home</li> <li>home</li> <li>home</li>
+     </ul>
+     <input type="text" placeholder="enter full name">
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsum quaerat delectus doloribus perferendis dolorem voluptates commodi exercitationem, beatae quia?</p>
+    <h1>this is demo</h1> <h1>this is demo</h1> <h1>this is demo</h1> <h1>this is demo</h1>
+     <hr>    
+    combinator selector
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="sajan">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet.</p> <p>sajan</p>
+
+</body>
+</html>

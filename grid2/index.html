@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{border: 2px solid black; padding: 20px;}
+        .grid{ display: grid; grid-template-areas: 'head head head' 'c b b' 'c d e' 'foot foot e';}  
+        .grid2{ padding: 20px 0; display: grid; grid-template-areas: 'g g g g g g'    '. h h h i .'  '. h h h i .'  '. h h h i .' '. j j k k .' 'l l l l l l'  ;}
+        .a{ grid-area: head;}
+        .b{ grid-area: b;}
+        .c{ grid-area: c;}
+        .d{ grid-area: d;}
+        .e{ grid-area: e;}
+        .f{ grid-area: foot}
+        .g{ background: blue; color: white; grid-area: g;}
+        .h{ background: green;  color: white; grid-area: h;}
+        .i{ background: purple;  color: white; grid-area: i;}
+        .j{ background: rgb(159, 159, 0);  color: white; grid-area: j;}
+        .k{ background: rgb(159, 159, 0);  color: white; grid-area: k;}
+        .l{ background: rgb(96, 96, 255); color: white; grid-area: l;}
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="box a">header</div>
+        <div class="box b">nav</div>
+        <div class="box c">left</div>
+        <div class="box d"> center</div>
+        <div class="box e"> right</div>
+        <div class="box f">foot</div>
+    </div>
+
+
+    <div class="grid2">
+        <div class="box g">header</div>
+        <div class="box h">main.content</div>
+        <div class="box i">sidebar</div>
+        <div class="box j"> twin</div>
+        <div class="box k"> twin</div>
+        <div class="box l">footer</div>
+    </div>
+</body>
+</html>
